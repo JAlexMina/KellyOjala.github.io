@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kelly Ojala</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Logo -->
+									<h1><a href="index.html" id="logo">Kelly Ojala</a></h1>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">Home</a>
+										<a href="about.html">About</a>
+										<a href="services.html">Services</a>
+										<a href="resources.html">Resources</a>
+										<a onclick="scrollToBottom()">Contact Us</a>
+									</nav>
+
+							</div>
+						</div>
+					</div>
+					<div id="banner">
+						<div class="container">
+							<div class="row">
+								<div class="col-6 col-12-medium">
+
+									<!-- Banner Copy -->
+										<p>Engineer this and that totally, no doubts about it.</p>
+										<!-- <a href="#" class="button-large">Go on, click me!</a> -->
+
+								</div>
+								<div class="col-6 col-12-medium imp-medium">
+
+									<!-- Banner Image -->
+										<a href="#" class="bordered-feature-image"><img src="images/banner.jpg" alt="" /></a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			
+
+			<!-- Content -->
+				<section id="content">
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+
+								<!-- Box #1 -->
+									<section>
+										<header>
+											<h2>Who We Are</h2>
+											<h3>A subheading about who we are</h3>
+										</header>
+										<a href="#" class="feature-image"><img src="images/pic05.jpg" alt="" /></a>
+										<p>
+											Duis neque nisi, dapibus sed mattis quis, rutrum accumsan magna sed.
+											Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis
+											justo facilisis quis. Sed sagittis amet lorem ipsum.
+										</p>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Box #2 -->
+									<section>
+										<header>
+											<h2>What We Do</h2>
+											<h3>A subheading about what we do</h3>
+										</header>
+										<ul class="check-list">
+											<li>Sed mattis quis rutrum accum</li>
+											<li>Eu varius nibh suspendisse lorem</li>
+											<li>Magna eget odio amet mollis justo</li>
+											<li>Facilisis quis sagittis mauris</li>
+											<li>Amet tellus gravida lorem ipsum</li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Box #3 -->
+									<section>
+										<header>
+											<h2>What People Are Saying</h2>
+											<h3>And a final subheading about our clients</h3>
+										</header>
+										<ul class="quote-list">
+											<li>
+												<img src="images/pic06.jpg" alt="" />
+												<p>"Neque nisidapibus mattis"</p>
+												<span>Jane Doe, CEO of UntitledCorp</span>
+											</li>
+											<li>
+												<img src="images/pic07.jpg" alt="" />
+												<p>"Lorem ipsum consequat!"</p>
+												<span>John Doe, President of FakeBiz</span>
+											</li>
+											<li>
+												<img src="images/pic08.jpg" alt="" />
+												<p>"Magna veroeros amet tempus"</p>
+												<span>Mary Smith, CFO of UntitledBiz</span>
+											</li>
+										</ul>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+                        <div style="text-align: center;">
+                            <p style="font-size: 1.8em;">Contact Us</p>
+                            <script type="text/javascript">var submitted=false;</script>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='submit-thank-you.html';}"></iframe>        
+                            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSes-XqlsKA8l3Z_R18C-cdXMLjXYaFcn_wVBnLzT_NSl1KbGA/formResponse" method="post" style="display: inline-block;" 
+                            target="hidden_iframe" onsubmit="submitted=true;">
+                                <div class="row">
+                                    <div style="width: 50%;">
+                                        <input style="width: 100%;" type="text" name="entry.1267561668" placeholder="Name" required/>
+                                    </div>
+                                    <div style="width: 50%;">
+                                        <input style="width: 100%;" type="email" name="entry.2118958386" placeholder="Email" required/>
+                                    </div>
+                                    <div style="width: 100%;">
+                                        <textarea style="width: 100%; height: 100%;" name="entry.1247835016" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="">
+                                        <ul class="">
+                                            <li><input type="submit" value="Send Message"/></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+					</div>                    
+				</section>
+
+                
+
+
+
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+            <script>
+
+                function checkIfUrlContains(url, string) {
+                return url.includes(string);
+                }
+
+				history.scrollRestoration = "manual";
+				function scrollToBottom() {
+                    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+                };
+
+                window.onload = function() {
+                    const currentUrl = window.location.href;
+                    const searchTerm = "contact-us";
+
+                    if (checkIfUrlContains(currentUrl, searchTerm)) {
+                        scrollToBottom();
+                    } 
+                }
+
+                
+            </script>
+
+	</body>
+</html>
+
